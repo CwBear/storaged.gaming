@@ -1,0 +1,45 @@
+body {
+    padding-top: 20px;
+    background: #1b1b1b;
+  }
+  
+  .grid-1 {
+    display: grid;
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    
+    grid-template-areas: "sidebar main main";
+  }
+  
+  /* items */
+  
+  .grid-1 div {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    }
+  
+  /* specific item styles */
+  
+  .item-1 {
+    background: rgb(43, 43, 43);
+    grid-area: header;
+  }
+  .item-2 {
+    background: rgb(43, 43, 43);
+    grid-area: main;
+  }
+  .item-3 {
+    background: rgb(43, 43, 43);
+    grid-area: sidebar;
+  }
+  .item-4 {
+    background: rgb(43, 43, 43);
+    grid-area: footer;
+  }
+  
