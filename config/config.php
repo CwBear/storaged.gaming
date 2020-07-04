@@ -2,8 +2,8 @@
 
 define('URL', 'http://localhost/storaged.gaming/');
 define('HOST', 'localhost');
-define('DB', 'localhost');
-define('USER', 'localhost');
-define('PASSWORD', 'localhost');
-define('CHARSET', 'localhost');
+define('DB', 'storaged');
+define('USER', 'root');
+define('PASSWORD', '');
+define('CHARSET', 'utf8mb4_general_ci');
 ?>

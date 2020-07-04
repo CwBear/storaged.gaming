@@ -6,5 +6,11 @@ class Registro extends Controller{
         parent::__construct();
         $this->view->render('registro/index');
     }
+
+    function registrarCliente(){
+        echo "Cliente Registrado";
+        $this->Newmodel->insert();
+
+    }
 }
 ?>

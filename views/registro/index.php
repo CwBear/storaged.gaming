@@ -11,7 +11,7 @@
 <div id="main">
     <h1 class="center error">registro</h1>
 </div>
-
+<?php require 'views/registro/modulos/body.php'; ?>
 <?php require 'views/main/modulos/footer.php'; ?>
 </body>
 </html>
